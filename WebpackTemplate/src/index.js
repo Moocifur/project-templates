@@ -1,11 +1,4 @@
-// Import styles and other modules
-import './styles.css';
-import { greeting } from './greeting.js';
+//index.js in src
+import './style.css';
 
-// Test JavaScript functionality
-console.log(greeting);
-
-// Create and add a heading to test DOM manipulation
-const heading = document.createElement('h1');
-heading.textContent = 'Hello, Webpack!';
-document.body.appendChild(heading);
+console.log('Webpack template is working!');
